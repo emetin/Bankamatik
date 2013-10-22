@@ -29,15 +29,15 @@ void main()
         int gonderileninhesapNo = 111;
         
         printf("\n");// Bir alt satıra geçiş yapar 
-		printf("AvP BANKASINA HOSGELDINIZ\n");
+	printf("AvP BANKASINA HOSGELDINIZ\n");
+	printf("-------------------------\n");
 
         printf("Kullanici Hesap Numaranizi Giriniz : \n");//Hesap no sorar
         scanf_s("%d", &girilenhesap);
 
         printf("Sifrenizi Giriniz : \n");//Sifreyi ister
         scanf_s("%d", &girilenSifre);
-        if (girilenhesap == kullanicihesapno || girilenSifre == sifre) 
-                //Hesap no ve şifrenin uyumlu olması gerekir uyum sağlanmadıkça program acilmaz.
+        if (girilenhesap == kullanicihesapno || girilenSifre == sifre)//Hesap no ve şifrenin uyumlu olması gerekir uyum sağlanmadıkça program acilmaz.
         {
                 printf("\nBilgileriniz Dogrulandi !\n");
                 printf("\n");
